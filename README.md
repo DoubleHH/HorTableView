@@ -3,8 +3,8 @@ HorTableView
 
 Sometimes we want a horizontal UITableView, but we can't find it. We maybe 
 can rotate it, but it's so incovenient. This project prove a way to solve 
-the problem, it's like a horizontal UITableView, but it's not strong like 
-UITableView. Maybe I will complete it lately.
+the problem, it's like a horizontal UITableView, but it's not strong as to 
+it. Maybe I will complete it lately.
 
 #License
 
