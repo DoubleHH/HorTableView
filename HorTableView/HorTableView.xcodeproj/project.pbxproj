@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5343144219483DD500371CDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5343144119483DD500371CDB /* Foundation.framework */; };
+		5343144419483DD500371CDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5343144319483DD500371CDB /* CoreGraphics.framework */; };
+		5343144619483DD500371CDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5343144519483DD500371CDB /* UIKit.framework */; };
+		5343144C19483DD500371CDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5343144A19483DD500371CDB /* InfoPlist.strings */; };
+		5343144E19483DD500371CDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5343144D19483DD500371CDB /* main.m */; };
+		5343145219483DD500371CDB /* HNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5343145119483DD500371CDB /* HNAppDelegate.m */; };
+		5343145519483DD500371CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5343145319483DD500371CDB /* Main.storyboard */; };
+		5343145819483DD500371CDB /* HNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5343145719483DD500371CDB /* HNViewController.m */; };
+		5343145A19483DD500371CDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5343145919483DD500371CDB /* Images.xcassets */; };
+		5343146119483DD500371CDB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5343146019483DD500371CDB /* XCTest.framework */; };
+		5343146219483DD500371CDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5343144119483DD500371CDB /* Foundation.framework */; };
+		5343146319483DD500371CDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5343144519483DD500371CDB /* UIKit.framework */; };
+		5343146B19483DD500371CDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5343146919483DD500371CDB /* InfoPlist.strings */; };
+		5343146D19483DD500371CDB /* HorTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5343146C19483DD500371CDB /* HorTableViewTests.m */; };
+		5343147819483EEC00371CDB /* HNHorTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5343147719483EEC00371CDB /* HNHorTableView.m */; };
+		5343147B1948609400371CDB /* HNHorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5343147A1948609400371CDB /* HNHorTableViewCell.m */; };
+		53431484194944C800371CDB /* VSView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 53431483194944C800371CDB /* VSView+Extend.m */; };
+		5348AD8D194A014900DFD3C4 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5348AD89194A014900DFD3C4 /* 0.png */; };
+		5348AD8E194A014900DFD3C4 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5348AD8A194A014900DFD3C4 /* 1.png */; };
+		5348AD8F194A014900DFD3C4 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5348AD8B194A014900DFD3C4 /* 2.png */; };
+		5348AD90194A014900DFD3C4 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5348AD8C194A014900DFD3C4 /* 3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5343146419483DD500371CDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5343143619483DD500371CDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5343143D19483DD500371CDB;
+			remoteInfo = HorTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5343143E19483DD500371CDB /* HorTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5343144119483DD500371CDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5343144319483DD500371CDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5343144519483DD500371CDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5343144919483DD500371CDB /* HorTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HorTableView-Info.plist"; sourceTree = "<group>"; };
+		5343144B19483DD500371CDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5343144D19483DD500371CDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5343144F19483DD500371CDB /* HorTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HorTableView-Prefix.pch"; sourceTree = "<group>"; };
+		5343145019483DD500371CDB /* HNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNAppDelegate.h; sourceTree = "<group>"; };
+		5343145119483DD500371CDB /* HNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNAppDelegate.m; sourceTree = "<group>"; };
+		5343145419483DD500371CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5343145619483DD500371CDB /* HNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNViewController.h; sourceTree = "<group>"; };
+		5343145719483DD500371CDB /* HNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNViewController.m; sourceTree = "<group>"; };
+		5343145919483DD500371CDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5343145F19483DD500371CDB /* HorTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5343146019483DD500371CDB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5343146819483DD500371CDB /* HorTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HorTableViewTests-Info.plist"; sourceTree = "<group>"; };
+		5343146A19483DD500371CDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5343146C19483DD500371CDB /* HorTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorTableViewTests.m; sourceTree = "<group>"; };
+		5343147619483EEC00371CDB /* HNHorTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNHorTableView.h; sourceTree = "<group>"; };
+		5343147719483EEC00371CDB /* HNHorTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNHorTableView.m; sourceTree = "<group>"; };
+		534314791948609400371CDB /* HNHorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNHorTableViewCell.h; sourceTree = "<group>"; };
+		5343147A1948609400371CDB /* HNHorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNHorTableViewCell.m; sourceTree = "<group>"; };
+		53431482194944C800371CDB /* VSView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VSView+Extend.h"; sourceTree = "<group>"; };
+		53431483194944C800371CDB /* VSView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VSView+Extend.m"; sourceTree = "<group>"; };
+		5348AD89194A014900DFD3C4 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		5348AD8A194A014900DFD3C4 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		5348AD8B194A014900DFD3C4 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		5348AD8C194A014900DFD3C4 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5343143B19483DD500371CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5343144419483DD500371CDB /* CoreGraphics.framework in Frameworks */,
+				5343144619483DD500371CDB /* UIKit.framework in Frameworks */,
+				5343144219483DD500371CDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5343145C19483DD500371CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5343146119483DD500371CDB /* XCTest.framework in Frameworks */,
+				5343146319483DD500371CDB /* UIKit.framework in Frameworks */,
+				5343146219483DD500371CDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5343143519483DD500371CDB = {
+			isa = PBXGroup;
+			children = (
+				5343144719483DD500371CDB /* HorTableView */,
+				5343146619483DD500371CDB /* HorTableViewTests */,
+				5343144019483DD500371CDB /* Frameworks */,
+				5343143F19483DD500371CDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5343143F19483DD500371CDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5343143E19483DD500371CDB /* HorTableView.app */,
+				5343145F19483DD500371CDB /* HorTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5343144019483DD500371CDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5343144119483DD500371CDB /* Foundation.framework */,
+				5343144319483DD500371CDB /* CoreGraphics.framework */,
+				5343144519483DD500371CDB /* UIKit.framework */,
+				5343146019483DD500371CDB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5343144719483DD500371CDB /* HorTableView */ = {
+			isa = PBXGroup;
+			children = (
+				5348AD89194A014900DFD3C4 /* 0.png */,
+				5348AD8A194A014900DFD3C4 /* 1.png */,
+				5348AD8B194A014900DFD3C4 /* 2.png */,
+				5348AD8C194A014900DFD3C4 /* 3.png */,
+				53431482194944C800371CDB /* VSView+Extend.h */,
+				53431483194944C800371CDB /* VSView+Extend.m */,
+				5343145019483DD500371CDB /* HNAppDelegate.h */,
+				5343145119483DD500371CDB /* HNAppDelegate.m */,
+				5343145319483DD500371CDB /* Main.storyboard */,
+				5343145619483DD500371CDB /* HNViewController.h */,
+				5343145719483DD500371CDB /* HNViewController.m */,
+				5343145919483DD500371CDB /* Images.xcassets */,
+				5343144819483DD500371CDB /* Supporting Files */,
+				5343147619483EEC00371CDB /* HNHorTableView.h */,
+				5343147719483EEC00371CDB /* HNHorTableView.m */,
+				534314791948609400371CDB /* HNHorTableViewCell.h */,
+				5343147A1948609400371CDB /* HNHorTableViewCell.m */,
+			);
+			path = HorTableView;
+			sourceTree = "<group>";
+		};
+		5343144819483DD500371CDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5343144919483DD500371CDB /* HorTableView-Info.plist */,
+				5343144A19483DD500371CDB /* InfoPlist.strings */,
+				5343144D19483DD500371CDB /* main.m */,
+				5343144F19483DD500371CDB /* HorTableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5343146619483DD500371CDB /* HorTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5343146C19483DD500371CDB /* HorTableViewTests.m */,
+				5343146719483DD500371CDB /* Supporting Files */,
+			);
+			path = HorTableViewTests;
+			sourceTree = "<group>";
+		};
+		5343146719483DD500371CDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5343146819483DD500371CDB /* HorTableViewTests-Info.plist */,
+				5343146919483DD500371CDB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5343143D19483DD500371CDB /* HorTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5343147019483DD600371CDB /* Build configuration list for PBXNativeTarget "HorTableView" */;
+			buildPhases = (
+				5343143A19483DD500371CDB /* Sources */,
+				5343143B19483DD500371CDB /* Frameworks */,
+				5343143C19483DD500371CDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HorTableView;
+			productName = HorTableView;
+			productReference = 5343143E19483DD500371CDB /* HorTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5343145E19483DD500371CDB /* HorTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5343147319483DD600371CDB /* Build configuration list for PBXNativeTarget "HorTableViewTests" */;
+			buildPhases = (
+				5343145B19483DD500371CDB /* Sources */,
+				5343145C19483DD500371CDB /* Frameworks */,
+				5343145D19483DD500371CDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5343146519483DD500371CDB /* PBXTargetDependency */,
+			);
+			name = HorTableViewTests;
+			productName = HorTableViewTests;
+			productReference = 5343145F19483DD500371CDB /* HorTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5343143619483DD500371CDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = doubleHH;
+				TargetAttributes = {
+					5343145E19483DD500371CDB = {
+						TestTargetID = 5343143D19483DD500371CDB;
+					};
+				};
+			};
+			buildConfigurationList = 5343143919483DD500371CDB /* Build configuration list for PBXProject "HorTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5343143519483DD500371CDB;
+			productRefGroup = 5343143F19483DD500371CDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5343143D19483DD500371CDB /* HorTableView */,
+				5343145E19483DD500371CDB /* HorTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5343143C19483DD500371CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5348AD8F194A014900DFD3C4 /* 2.png in Resources */,
+				5348AD8D194A014900DFD3C4 /* 0.png in Resources */,
+				5343145A19483DD500371CDB /* Images.xcassets in Resources */,
+				5343144C19483DD500371CDB /* InfoPlist.strings in Resources */,
+				5343145519483DD500371CDB /* Main.storyboard in Resources */,
+				5348AD90194A014900DFD3C4 /* 3.png in Resources */,
+				5348AD8E194A014900DFD3C4 /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5343145D19483DD500371CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5343146B19483DD500371CDB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5343143A19483DD500371CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5343147B1948609400371CDB /* HNHorTableViewCell.m in Sources */,
+				5343145819483DD500371CDB /* HNViewController.m in Sources */,
+				5343147819483EEC00371CDB /* HNHorTableView.m in Sources */,
+				53431484194944C800371CDB /* VSView+Extend.m in Sources */,
+				5343145219483DD500371CDB /* HNAppDelegate.m in Sources */,
+				5343144E19483DD500371CDB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5343145B19483DD500371CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5343146D19483DD500371CDB /* HorTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5343146519483DD500371CDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5343143D19483DD500371CDB /* HorTableView */;
+			targetProxy = 5343146419483DD500371CDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5343144A19483DD500371CDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5343144B19483DD500371CDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5343145319483DD500371CDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5343145419483DD500371CDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5343146919483DD500371CDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5343146A19483DD500371CDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5343146E19483DD600371CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5343146F19483DD600371CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5343147119483DD600371CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HorTableView/HorTableView-Prefix.pch";
+				INFOPLIST_FILE = "HorTableView/HorTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5343147219483DD600371CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HorTableView/HorTableView-Prefix.pch";
+				INFOPLIST_FILE = "HorTableView/HorTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5343147419483DD600371CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HorTableView.app/HorTableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HorTableView/HorTableView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HorTableViewTests/HorTableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5343147519483DD600371CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HorTableView.app/HorTableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HorTableView/HorTableView-Prefix.pch";
+				INFOPLIST_FILE = "HorTableViewTests/HorTableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5343143919483DD500371CDB /* Build configuration list for PBXProject "HorTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5343146E19483DD600371CDB /* Debug */,
+				5343146F19483DD600371CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5343147019483DD600371CDB /* Build configuration list for PBXNativeTarget "HorTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5343147119483DD600371CDB /* Debug */,
+				5343147219483DD600371CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5343147319483DD600371CDB /* Build configuration list for PBXNativeTarget "HorTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5343147419483DD600371CDB /* Debug */,
+				5343147519483DD600371CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5343143619483DD500371CDB /* Project object */;
+}
